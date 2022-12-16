@@ -7,7 +7,7 @@ jobs:
   build: 
     executor:
       name: win/default 
-      size: 2xlarge
+      size: macos.x86.metal.gen1	
  
     steps:
       - checkout      
